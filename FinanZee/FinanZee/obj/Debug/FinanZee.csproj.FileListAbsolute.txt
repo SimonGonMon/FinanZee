@@ -3,7 +3,6 @@ C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\bin\Debug\FinanZee.ex
 C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\bin\Debug\FinanZee.pdb
 C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\obj\Debug\FinanZee.csproj.AssemblyReference.cache
 C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\obj\Debug\FinanZee.csproj.SuggestedBindingRedirects.cache
-C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\obj\Debug\FinanZee.Form1.resources
 C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\obj\Debug\FinanZee.Properties.Resources.resources
 C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\obj\Debug\FinanZee.csproj.GenerateResource.cache
 C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\obj\Debug\FinanZee.csproj.CoreCompileInputs.cache
@@ -82,3 +81,4 @@ C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\bin\Debug\System.Buff
 C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\bin\Debug\System.Memory.xml
 C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\obj\Debug\FinanZee.FZ.resources
