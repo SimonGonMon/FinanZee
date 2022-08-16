@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using LiveChartsCore;
 using LiveChartsCore.SkiaSharpView;
 
+
 namespace FinanZee
 {
     public partial class FZ_Analytics : Form
@@ -22,6 +23,12 @@ namespace FinanZee
                 new LineSeries<double>
                 {
                     Values = new double[] { 2, 1, 3, 5, 3, 4, 6 },
+                    Fill = null
+                },
+
+                                new LineSeries<double>
+                {
+                    Values = new double[] { 5, 3, 1, 6, 7, 4, 6 },
                     Fill = null
                 }
 };
@@ -39,6 +46,16 @@ namespace FinanZee
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void motionCanvas1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
         {
 
         }

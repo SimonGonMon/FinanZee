@@ -104,7 +104,7 @@
             this.btnContact.Name = "btnContact";
             this.btnContact.Size = new System.Drawing.Size(186, 42);
             this.btnContact.TabIndex = 2;
-            this.btnContact.Text = "Soporte";
+            this.btnContact.Text = "Finanzas";
             this.btnContact.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnContact.UseVisualStyleBackColor = true;
             this.btnContact.Click += new System.EventHandler(this.btnContact_Click);
@@ -267,7 +267,7 @@
             this.lblTitle.Text = "Inicio";
             this.lblTitle.Click += new System.EventHandler(this.label3_Click);
             // 
-            // Form1
+            // FZ
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -276,7 +276,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "FZ";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

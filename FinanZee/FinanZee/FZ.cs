@@ -141,9 +141,9 @@ namespace FinanZee
             pnlNav.Left = btnContact.Left;
             btnContact.BackColor = Color.FromArgb(46, 51, 73);
 
-            lblTitle.Text = "Soporte";
+            lblTitle.Text = "Finanzas";
             this.pnlLoader.Controls.Clear();
-            FZ_Contact Form2_Vrb = new FZ_Contact()
+            FZ_Finanzas Form2_Vrb = new FZ_Finanzas()
             {
                 Dock = DockStyle.Fill,
                 TopLevel = false,

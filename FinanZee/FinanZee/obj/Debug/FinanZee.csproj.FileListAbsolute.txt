@@ -12,9 +12,7 @@ C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\bin\Debug\CircularPro
 C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\bin\Debug\WinFormAnimation.dll
 C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\bin\Debug\CircularProgressBar.xml
 C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\obj\Debug\FinanZee.FZ_Main.resources
-C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\obj\Debug\FinanZee.FZ_Analytics.resources
 C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\obj\Debug\FinanZee.FZ_Calendar.resources
-C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\obj\Debug\FinanZee.FZ_Contact.resources
 C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\obj\Debug\FinanZee.FZ_Settings.resources
 C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\obj\Debug\FinanZee.csproj.CopyComplete
 C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\bin\Debug\EasyTabs.dll
@@ -82,3 +80,15 @@ C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\bin\Debug\System.Memo
 C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\obj\Debug\FinanZee.FZ.resources
+C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\obj\Debug\FinanZee.FZ_Finanzas.resources
+C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\obj\Debug\FinanZee.FZ_Analytics.resources
+C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\bin\Debug\Microsoft.Win32.TaskScheduler.xml
+C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\bin\Debug\de\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\bin\Debug\es\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\bin\Debug\fr\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\bin\Debug\it\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\bin\Debug\pl\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\bin\Debug\ru\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\bin\Debug\zh-CN\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee\FinanZee\bin\Debug\zh-Hant\Microsoft.Win32.TaskScheduler.resources.dll
