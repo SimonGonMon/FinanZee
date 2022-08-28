@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee_WPF\FinanZee_WPF\obj\Debug\
+C:\Users\Simon\Source\Repos\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\obj\Debug\
 FinanZee_WPF
 none
 false
 DEBUG;TRACE
-C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee_WPF\FinanZee_WPF\App.xaml
-1219584333
+C:\Users\Simon\Source\Repos\Login-In-WPF-MVVM-C-Sharp-and-SQL-Server\WPF-LoginForm\App.xaml
+3-592061816
 
-6-502434485
-13-1310406943
-MainWindow.xaml;
+17-1013184374
+1261434995890
+CustomControls\BindablePasswordBox.xaml;Views\LoginView.xaml;Views\MainView.xaml;
 
 True
 
