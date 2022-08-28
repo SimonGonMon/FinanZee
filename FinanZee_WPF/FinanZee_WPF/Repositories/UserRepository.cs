@@ -62,12 +62,12 @@ namespace FinanZee_WPF.Repositories
                     {
                         user = new UserModel()
                         {
-                            Id = reader[5].ToString(),
-                            Username = reader[0].ToString(),
+                            Id = reader[0].ToString(),
+                            Username = reader[1].ToString(),
                             Password = string.Empty,
-                            Name = reader[2].ToString(),
-                            LastName = reader[3].ToString(),
-                            Email = reader[4].ToString(),
+                            Name = reader[3].ToString(),
+                            LastName = reader[4].ToString(),
+                            Email = reader[5].ToString(),
                         };
                     }
                 }
