@@ -75,3 +75,9 @@ C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee_WPF\FinanZee_WPF\obj\Debug\App
 C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee_WPF\FinanZee_WPF\bin\Debug\FontAwesome.Sharp.dll
 C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee_WPF\FinanZee_WPF\obj\Debug\Styles\ButtonStyles.baml
 C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee_WPF\FinanZee_WPF\obj\Debug\FinanZee_WPF_Content.g.cs
+C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee_WPF\FinanZee_WPF\obj\Debug\Views\CustomerView.g.cs
+C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee_WPF\FinanZee_WPF\obj\Debug\Views\HomeView.g.cs
+C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee_WPF\FinanZee_WPF\obj\Debug\Views\CustomerView.baml
+C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee_WPF\FinanZee_WPF\obj\Debug\Views\HomeView.baml
+C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee_WPF\FinanZee_WPF\obj\Debug\Views\SettingsView.g.cs
+C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee_WPF\FinanZee_WPF\obj\Debug\Views\SettingsView.baml

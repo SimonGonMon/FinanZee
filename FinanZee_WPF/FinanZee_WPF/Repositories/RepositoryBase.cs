@@ -19,5 +19,9 @@ namespace FinanZee_WPF.Repositories
         {
             return new MySqlConnection(_connectionString);
         }
+
+        
     }
+
+
 }
