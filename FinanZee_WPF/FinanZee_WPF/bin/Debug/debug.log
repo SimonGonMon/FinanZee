@@ -1,0 +1,150 @@
+[0924/224116.002:WARNING:frame_impl.cc(452)] SendProcessMessage sent to detached frame 17179869185 [4,1] will be ignored
+[0924/224240.455:INFO:CONSOLE(414)] "%c%s color: red; background: yellow; font-size: 24px; WARNING!", source: https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.PucsbLnUAFs.es5.O/am=MgEINWACBAYAACAAAAAAAAzgAAI/d=1/excm=_b,_r,_tp,identifierview/ed=1/dg=0/wt=2/rs=AOaEmlEWwoTZFa-8AxrgLWGn8ZxH488ofQ/m=_b,_tp,_r (414)
+[0924/224240.456:INFO:CONSOLE(414)] "%c%s font-size: 18px; Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.
+Do not enter or paste code that you do not understand.", source: https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.PucsbLnUAFs.es5.O/am=MgEINWACBAYAACAAAAAAAAzgAAI/d=1/excm=_b,_r,_tp,identifierview/ed=1/dg=0/wt=2/rs=AOaEmlEWwoTZFa-8AxrgLWGn8ZxH488ofQ/m=_b,_tp,_r (414)
+[0924/224241.600:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836485 [5,5]
+[0924/224241.968:WARNING:frame_impl.cc(452)] SendProcessMessage sent to detached frame 17179869190 [4,6] will be ignored
+[0924/224241.968:WARNING:frame_impl.cc(452)] SendProcessMessage sent to detached frame 17179869190 [4,6] will be ignored
+[0924/224242.430:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836485 [5,5]
+[0924/224242.431:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836485 [5,5]
+[0924/224242.431:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836485 [5,5]
+[0924/224242.432:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836485 [5,5]
+[0924/224251.533:INFO:CONSOLE(414)] "%c%s color: red; background: yellow; font-size: 24px; WARNING!", source: https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.PucsbLnUAFs.es5.O/am=MgEINWACBAYAACAAAAAAAAzgAAI/d=1/excm=_b,_r,_tp,identifierview/ed=1/dg=0/wt=2/rs=AOaEmlEWwoTZFa-8AxrgLWGn8ZxH488ofQ/m=_b,_tp,_r (414)
+[0924/224251.533:INFO:CONSOLE(414)] "%c%s font-size: 18px; Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.
+Do not enter or paste code that you do not understand.", source: https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.PucsbLnUAFs.es5.O/am=MgEINWACBAYAACAAAAAAAAzgAAI/d=1/excm=_b,_r,_tp,identifierview/ed=1/dg=0/wt=2/rs=AOaEmlEWwoTZFa-8AxrgLWGn8ZxH488ofQ/m=_b,_tp,_r (414)
+[0924/224251.817:WARNING:browser_info.cc(300)] Returning a speculative frame for 25769803781 [6,5]
+[0924/224252.155:WARNING:frame_impl.cc(452)] SendProcessMessage sent to detached frame 17179869194 [4,10] will be ignored
+[0924/224252.155:WARNING:frame_impl.cc(452)] SendProcessMessage sent to detached frame 17179869194 [4,10] will be ignored
+[0924/224252.308:WARNING:browser_info.cc(300)] Returning a speculative frame for 25769803781 [6,5]
+[0924/224252.309:WARNING:browser_info.cc(300)] Returning a speculative frame for 25769803781 [6,5]
+[0924/224252.309:WARNING:browser_info.cc(300)] Returning a speculative frame for 25769803781 [6,5]
+[0924/224252.309:WARNING:browser_info.cc(300)] Returning a speculative frame for 25769803781 [6,5]
+[0924/224437.052:ERROR:gpu_init.cc(486)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0924/224643.121:INFO:CONSOLE(414)] "%c%s color: red; background: yellow; font-size: 24px; WARNING!", source: https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.PucsbLnUAFs.es5.O/am=MgEINWACBAYAACAAAAAAAAzgAAI/d=1/excm=_b,_r,_tp,identifierview/ed=1/dg=0/wt=2/rs=AOaEmlEWwoTZFa-8AxrgLWGn8ZxH488ofQ/m=_b,_tp,_r (414)
+[0924/224643.124:INFO:CONSOLE(414)] "%c%s font-size: 18px; Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.
+Do not enter or paste code that you do not understand.", source: https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.PucsbLnUAFs.es5.O/am=MgEINWACBAYAACAAAAAAAAzgAAI/d=1/excm=_b,_r,_tp,identifierview/ed=1/dg=0/wt=2/rs=AOaEmlEWwoTZFa-8AxrgLWGn8ZxH488ofQ/m=_b,_tp,_r (414)
+[0924/224644.070:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836485 [5,5]
+[0924/224644.758:WARNING:frame_impl.cc(452)] SendProcessMessage sent to detached frame 17179869190 [4,6] will be ignored
+[0924/224644.759:WARNING:frame_impl.cc(452)] SendProcessMessage sent to detached frame 17179869190 [4,6] will be ignored
+[0924/224644.919:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836485 [5,5]
+[0924/224644.920:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836485 [5,5]
+[0924/224644.920:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836485 [5,5]
+[0924/224644.921:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836485 [5,5]
+[0924/224649.062:INFO:CONSOLE(414)] "%c%s color: red; background: yellow; font-size: 24px; WARNING!", source: https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.PucsbLnUAFs.es5.O/am=MgEINWACBAYAACAAAAAAAAzgAAI/d=1/excm=_b,_r,_tp,identifierview/ed=1/dg=0/wt=2/rs=AOaEmlEWwoTZFa-8AxrgLWGn8ZxH488ofQ/m=_b,_tp,_r (414)
+[0924/224649.063:INFO:CONSOLE(414)] "%c%s font-size: 18px; Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.
+Do not enter or paste code that you do not understand.", source: https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.PucsbLnUAFs.es5.O/am=MgEINWACBAYAACAAAAAAAAzgAAI/d=1/excm=_b,_r,_tp,identifierview/ed=1/dg=0/wt=2/rs=AOaEmlEWwoTZFa-8AxrgLWGn8ZxH488ofQ/m=_b,_tp,_r (414)
+[0924/224649.359:WARNING:browser_info.cc(300)] Returning a speculative frame for 25769803781 [6,5]
+[0924/224649.727:WARNING:frame_impl.cc(452)] SendProcessMessage sent to detached frame 17179869194 [4,10] will be ignored
+[0924/224649.727:WARNING:frame_impl.cc(452)] SendProcessMessage sent to detached frame 17179869194 [4,10] will be ignored
+[0924/224649.865:WARNING:browser_info.cc(300)] Returning a speculative frame for 25769803781 [6,5]
+[0924/224649.866:WARNING:browser_info.cc(300)] Returning a speculative frame for 25769803781 [6,5]
+[0924/224649.866:WARNING:browser_info.cc(300)] Returning a speculative frame for 25769803781 [6,5]
+[0924/224649.866:WARNING:browser_info.cc(300)] Returning a speculative frame for 25769803781 [6,5]
+[0924/225228.853:INFO:CONSOLE(414)] "%c%s color: red; background: yellow; font-size: 24px; WARNING!", source: https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.PucsbLnUAFs.es5.O/am=MgEINWACBAYAACAAAAAAAAzgAAI/d=1/excm=_b,_r,_tp,identifierview/ed=1/dg=0/wt=2/rs=AOaEmlEWwoTZFa-8AxrgLWGn8ZxH488ofQ/m=_b,_tp,_r (414)
+[0924/225228.854:INFO:CONSOLE(414)] "%c%s font-size: 18px; Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.
+Do not enter or paste code that you do not understand.", source: https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.PucsbLnUAFs.es5.O/am=MgEINWACBAYAACAAAAAAAAzgAAI/d=1/excm=_b,_r,_tp,identifierview/ed=1/dg=0/wt=2/rs=AOaEmlEWwoTZFa-8AxrgLWGn8ZxH488ofQ/m=_b,_tp,_r (414)
+[0924/225229.479:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836485 [5,5]
+[0924/225230.046:WARNING:frame_impl.cc(452)] SendProcessMessage sent to detached frame 17179869190 [4,6] will be ignored
+[0924/225230.047:WARNING:frame_impl.cc(452)] SendProcessMessage sent to detached frame 17179869190 [4,6] will be ignored
+[0924/225230.212:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836485 [5,5]
+[0924/225230.219:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836485 [5,5]
+[0924/225230.224:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836485 [5,5]
+[0924/225230.226:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836485 [5,5]
+[0924/225244.445:WARNING:frame_impl.cc(452)] SendProcessMessage sent to detached frame 17179869189 [4,5] will be ignored
+[0924/225501.296:INFO:CONSOLE(1)] "Validation of configurations options finished successfully.", source: https://c1-odc-15.cdn.office.net/start/s/161570841020_App_Scripts/DefaultSignIn.min.js (1)
+[0924/225501.312:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/225502.322:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/225502.323:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/225502.323:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/225502.324:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/225527.120:WARNING:browser_info.cc(300)] Returning a speculative frame for 25769803781 [6,5]
+[0924/225528.081:WARNING:browser_info.cc(300)] Returning a speculative frame for 25769803781 [6,5]
+[0924/225528.082:WARNING:browser_info.cc(300)] Returning a speculative frame for 25769803781 [6,5]
+[0924/225528.082:WARNING:browser_info.cc(300)] Returning a speculative frame for 25769803781 [6,5]
+[0924/225528.082:WARNING:browser_info.cc(300)] Returning a speculative frame for 25769803781 [6,5]
+[0924/225534.686:WARNING:browser_info.cc(300)] Returning a speculative frame for 30064771077 [7,5]
+[0924/225535.134:WARNING:browser_info.cc(300)] Returning a speculative frame for 30064771077 [7,5]
+[0924/225535.136:WARNING:browser_info.cc(300)] Returning a speculative frame for 30064771077 [7,5]
+[0924/225535.137:WARNING:browser_info.cc(300)] Returning a speculative frame for 30064771077 [7,5]
+[0924/225535.137:WARNING:browser_info.cc(300)] Returning a speculative frame for 30064771077 [7,5]
+[0924/225558.765:INFO:CONSOLE(341)] "Error parsing 'integrity' attribute ('undefined'). The hash algorithm must be one of 'sha256', 'sha384', or 'sha512', followed by a '-' character.", source: https://outlook.live.com/calendar/0/ (341)
+[0924/225628.551:WARNING:frame_impl.cc(452)] SendProcessMessage sent to detached frame 17179869185 [4,1] will be ignored
+[0924/225628.684:ERROR:command_buffer_proxy_impl.cc(325)] GPU state invalid after WaitForGetOffsetInRange.
+[0924/225646.183:INFO:CONSOLE(1)] "Validation of configurations options finished successfully.", source: https://c1-odc-15.cdn.office.net/start/s/161570841020_App_Scripts/DefaultSignIn.min.js (1)
+[0924/225646.195:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/225646.941:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/225646.942:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/225646.943:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/225646.943:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/225710.600:WARNING:frame_impl.cc(452)] SendProcessMessage sent to detached frame 17179869193 [4,9] will be ignored
+[0924/230508.568:INFO:CONSOLE(1)] "Validation of configurations options finished successfully.", source: https://c1-odc-15.cdn.office.net/start/s/161570841020_App_Scripts/DefaultSignIn.min.js (1)
+[0924/230508.585:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/230509.245:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/230509.246:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/230509.246:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/230509.246:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/230515.291:WARNING:frame_impl.cc(452)] SendProcessMessage sent to detached frame 17179869185 [4,1] will be ignored
+[0924/232340.347:INFO:CONSOLE(1)] "Validation of configurations options finished successfully.", source: https://c1-odc-15.cdn.office.net/start/s/161570841020_App_Scripts/DefaultSignIn.min.js (1)
+[0924/232340.361:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/232341.026:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/232341.027:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/232341.027:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/232341.028:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/233213.205:INFO:CONSOLE(1)] "Validation of configurations options finished successfully.", source: https://c1-odc-15.cdn.office.net/start/s/161570841020_App_Scripts/DefaultSignIn.min.js (1)
+[0924/233213.220:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/233214.134:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/233214.134:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/233214.135:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/233214.135:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/233348.415:INFO:CONSOLE(1)] "Validation of configurations options finished successfully.", source: https://c1-odc-15.cdn.office.net/start/s/161570841020_App_Scripts/DefaultSignIn.min.js (1)
+[0924/233348.436:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/233349.185:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/233349.186:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/233349.187:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/233349.187:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/233624.851:INFO:CONSOLE(1)] "Validation of configurations options finished successfully.", source: https://c1-odc-15.cdn.office.net/start/s/161570841020_App_Scripts/DefaultSignIn.min.js (1)
+[0924/233624.864:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/233625.589:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/233625.590:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/233625.591:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/233625.591:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/233834.874:INFO:CONSOLE(1)] "Validation of configurations options finished successfully.", source: https://c1-odc-15.cdn.office.net/start/s/161570841020_App_Scripts/DefaultSignIn.min.js (1)
+[0924/233834.891:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/233835.543:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/233835.544:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/233835.544:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/233835.545:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/234114.303:ERROR:gpu_init.cc(486)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0924/234138.198:INFO:CONSOLE(1)] "Validation of configurations options finished successfully.", source: https://c1-odc-15.cdn.office.net/start/s/161570841020_App_Scripts/DefaultSignIn.min.js (1)
+[0924/234138.219:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/234139.043:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/234139.044:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/234139.045:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/234139.046:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/234336.473:ERROR:gpu_init.cc(486)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0924/234647.614:INFO:CONSOLE(1)] "Validation of configurations options finished successfully.", source: https://c1-odc-15.cdn.office.net/start/s/161570841020_App_Scripts/DefaultSignIn.min.js (1)
+[0924/234647.632:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/234648.464:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/234648.464:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/234648.464:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/234648.465:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/234845.933:ERROR:gpu_init.cc(486)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0924/234911.071:INFO:CONSOLE(1)] "Validation of configurations options finished successfully.", source: https://c1-odc-15.cdn.office.net/start/s/161570841020_App_Scripts/DefaultSignIn.min.js (1)
+[0924/234911.091:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/234911.866:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/234911.867:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/234911.867:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/234911.868:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/235109.251:ERROR:gpu_init.cc(486)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0924/235220.275:INFO:CONSOLE(1)] "Validation of configurations options finished successfully.", source: https://c1-odc-15.cdn.office.net/start/s/161570841020_App_Scripts/DefaultSignIn.min.js (1)
+[0924/235220.288:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/235221.049:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/235221.050:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/235221.051:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/235221.051:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/235526.236:INFO:CONSOLE(1)] "Validation of configurations options finished successfully.", source: https://c1-odc-15.cdn.office.net/start/s/161570841020_App_Scripts/DefaultSignIn.min.js (1)
+[0924/235526.256:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/235527.236:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/235527.237:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/235527.238:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]
+[0924/235527.238:WARNING:browser_info.cc(300)] Returning a speculative frame for 21474836487 [5,7]

@@ -1,0 +1,17 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:lvc="clr-namespace:LiveChartsCore.SkiaSharpView.WPF;assembly=LiveChartsCore.SkiaSharpView.WPF"
+
+             xmlns:local="clr-namespace:FinanZee_WPF.ViewModels"
+             xmlns:Windows="clr-namespace:FinanZee_WPF.Windows" x:Class="FinanZee_WPF.Views.MetricsView"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+
+    <Windows:Graph1 HorizontalAlignment="Center" Margin="0,0,0,0" Width="800" Height="450" VerticalAlignment="Top"/>
+
+
+</UserControl>
