@@ -35,6 +35,10 @@
             <local:CalendarView/>
         </DataTemplate>
 
+        <DataTemplate DataType="{x:Type viewModel:RegisterViewModel}">
+            <local:RegisterView/>
+        </DataTemplate>
+
 
 
     </Window.Resources>
@@ -117,7 +121,7 @@
                     </RadioButton>
                     <RadioButton Style="{StaticResource menuButton}"
                                  Tag="{StaticResource color4}"
-                                 Command="{Binding ShowCustomerViewCommand}">
+                                 Command="{Binding ShowRegisterViewCommand}">
                         <StackPanel Orientation="Horizontal">
                             <fa:IconImage Icon="MoneyBill1" Style="{StaticResource menuButtonIcon}"/>
                             <TextBlock Text="Registrar" Style="{StaticResource menuButtonText}"/>

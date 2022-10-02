@@ -17,16 +17,22 @@ namespace FinanZee_WPF.Models
             public DateTime date { get; set; }
             public string type { get; set; }
             public double amount { get; set; }
+
+            public string extra { get; set; }
         }
 
         public class TransactionManagement
         {
             public void UploadTransaction(Transaction transaction)
             {
+                string type = transaction.type;
+                double amount = transaction.amount;
+                DateTime date = transaction.date;
+                string extra = transaction.extra;
                 string serializedTransaction = JsonConvert.SerializeObject(transaction);
 
                 UserRepository userRepository = new UserRepository();
-                userRepository.InsertTransaction(serializedTransaction);
+                userRepository.InsertTransaction(type, date, amount, extra, serializedTransaction);
             }
 
             public ArrayList DownloadTransactions()

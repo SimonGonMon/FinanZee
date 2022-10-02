@@ -52,18 +52,23 @@ namespace FinanZee_WPF.Repositories
             return validUser;
         }
 
-        public void InsertTransaction(string serializedTransaction)
+        public void InsertTransaction(string type, DateTime date, double amount, string extra, string serializedTransaction)
         {
             using (var connection = GetConnection())
             using (var command = new MySqlCommand())
             {
                 connection.Open();
                 command.Connection = connection;
-                command.CommandText = "INSERT INTO transactions (`user`, `transaction`) VALUES (@user, @transaction)";
+                command.CommandText = "INSERT INTO transactions (`user`, `type`, `date`, `amount`, `extra`, `raw_transaction`) VALUES (@user,@type,@date,@amount,@extra, @raw_transaction)";
                 command.Parameters.AddWithValue("@user", App.Current.Properties["user"]);
-                command.Parameters.AddWithValue("@transaction", serializedTransaction);
+                command.Parameters.AddWithValue("@raw_transaction", serializedTransaction);
+                command.Parameters.AddWithValue("@type", type);
+                command.Parameters.AddWithValue("@date", date.ToString("yyyy-MM-dd"));
+                command.Parameters.AddWithValue("@amount", amount);
+                command.Parameters.AddWithValue("@extra", extra);
                 command.ExecuteNonQuery();
             }
+
 
         }
 

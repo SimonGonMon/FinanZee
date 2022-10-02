@@ -79,6 +79,8 @@ namespace FinanZee_WPF.ViewModels
         public ICommand ShowCustomerViewCommand { get; }
 
         public ICommand ShowCalendarViewCommand { get; }
+
+        public ICommand ShowRegisterViewCommand { get; }
         public MainViewModel()
         {
             userRepository = new UserRepository();
@@ -88,6 +90,7 @@ namespace FinanZee_WPF.ViewModels
             ShowCustomerViewCommand = new ViewModelCommand(ExecuteShowCustomerViewCommand);
             ShowMetricsViewCommand = new ViewModelCommand(ExecuteShowMetricsViewCommand);
             ShowCalendarViewCommand = new ViewModelCommand(ExecuteShowCalendarViewCommand);
+            ShowRegisterViewCommand = new ViewModelCommand(ExecuteShowRegisterViewCommand);
             //Default view
             ExecuteShowHomeViewCommand(null);
             LoadCurrentUserData();
@@ -117,6 +120,13 @@ namespace FinanZee_WPF.ViewModels
             CurrentChildView = new CalendarViewModel();
             Caption = "Calendario";
             Icon = IconChar.Calendar;
+        }
+
+        private void ExecuteShowRegisterViewCommand(object obj)
+        {
+            CurrentChildView = new RegisterViewModel();
+            Caption = "Registrar";
+            Icon = IconChar.MoneyBill1;
         }
 
 
