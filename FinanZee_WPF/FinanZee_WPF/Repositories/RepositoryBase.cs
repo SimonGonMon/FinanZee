@@ -13,7 +13,7 @@ namespace FinanZee_WPF.Repositories
         private readonly string _connectionString;
         public RepositoryBase()
         {
-            _connectionString = "server=158.101.15.14;user=simon;database=FinanZee;port=3306;password=Coder2003@";
+            _connectionString = "server=158.101.15.14;user=simon;database=FinanZee;port=3306;password=123";
         }
         public MySqlConnection GetConnection()
         {

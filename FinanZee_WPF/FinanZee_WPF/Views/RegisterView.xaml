@@ -5,13 +5,13 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:FinanZee_WPF.Views" xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="450" d:DesignWidth="1200">
     <Grid >
 
 
         <StackPanel Orientation="Horizontal" Grid.Column="1" Margin="0,0,0,10" Grid.RowSpan="2">
 
-            <Grid Width="389" Margin="0,15,0,15">
+            <Grid Width="389" Margin="90,15,0,15">
                 <Border
                 Background="#EDEDED"
                 CornerRadius="10" 
@@ -27,20 +27,21 @@
                                 <Setter Property="Foreground" Value="#000000"/>
                                 <Setter Property="Padding" Value="10,0,0,10"/>
                                 <Setter Property="FontFamily" Value="Montserrat"/>
-                                <Setter Property="FontSize" Value="15"/>
+                                <Setter Property="FontSize" Value="13"/>
                             </Style>
                         </DataGrid.ColumnHeaderStyle>
                         <DataGrid.Columns>
                             <DataGridTextColumn Binding="{Binding Path=date}" IsReadOnly="True" Header="Fecha" HeaderStringFormat=""/>
                             <DataGridTextColumn Binding="{Binding Path=type}" IsReadOnly="True" Header="Tipo"/>
                             <DataGridTextColumn Binding="{Binding Path=amount}" IsReadOnly="True" Header="Monto"/>
-
+                            <DataGridTextColumn Binding="{Binding Path=extra}" IsReadOnly="True" Header="Descripción"/>
+                            
                         </DataGrid.Columns>
                     </DataGrid>
                 </Border>
             </Grid>
 
-            <Grid VerticalAlignment="Center" HorizontalAlignment="Right" Width="301" Margin="70">
+            <Grid VerticalAlignment="Center" HorizontalAlignment="Right" Width="301" Margin="70,15,0,15">
                 <StackPanel Margin="0,0,0,-17">
 
                     <StackPanel Grid.Column="0"
@@ -62,7 +63,12 @@
                     </StackPanel>
 
                     <Label Content="Ingresa el monto" FontFamily="Montserrat" FontWeight="Medium"/>
-                    <TextBox x:Name="textBoxAmount" TextWrapping="Wrap" Text="" Width="298" Height="40" Margin="0,5,0,5" FontFamily="Montserrat" FontWeight="Medium"/>
+                    <TextBox x:Name="textBoxAmount" TextWrapping="Wrap" Text="" Width="298" Height="23" Margin="0,5,0,5" FontFamily="Montserrat" FontWeight="Medium"/>
+
+                    <Label Content="Ingresa descripcion" FontFamily="Montserrat" FontWeight="Medium"/>
+                    <TextBox x:Name="textBoxDescription" TextWrapping="Wrap" Text="" Width="298" Height="40" Margin="0,5,0,5" FontFamily="Montserrat" FontWeight="Medium"/>
+
+
                     <Label Content="Elige el tipo" FontFamily="Montserrat" FontWeight="Medium" Margin="0,12,0,0"/>
                     <ComboBox x:Name="comboBox" IsReadOnly="True">
                         <ComboBoxItem Content="Ingreso" IsSelected="True"/>

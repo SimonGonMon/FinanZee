@@ -75,7 +75,7 @@ namespace FinanZee_WPF.Views
                 try
                 {
                     command.Connection = connection;
-                    command.CommandText = "SELECT type,date,amount FROM transactions WHERE user=@username";
+                    command.CommandText = "SELECT type,date,amount,extra FROM transactions WHERE user=@username";
                     command.Parameters.AddWithValue("@username", App.Current.Properties["user"]);
 
 
@@ -107,7 +107,7 @@ namespace FinanZee_WPF.Views
             lblStatusEmail.Content = "";
             string amount = textBoxAmount.Text.Trim();
             string type = ((ComboBoxItem)comboBox.SelectedItem).Content.ToString();
-            string extra = "";
+            string extra = textBoxDescription.Text.ToString();
             DateTime transactionDate = datePickerReminder.SelectedDate.Value;
 
             if (amount == null || amount == "" || datePickerReminder.SelectedDate == null)
@@ -131,6 +131,7 @@ namespace FinanZee_WPF.Views
                 loadTransactionsData();
 
                 textBoxAmount.Clear();
+                textBoxDescription.Clear();
 
             }
 
