@@ -110,15 +110,16 @@ namespace FinanZee_WPF.Repositories
             {
                 connection.Open();
                 command.Connection = connection;
-                command.CommandText = "SELECT transaction FROM transactions WHERE user=@username";
-                command.Parameters.AddWithValue("@username", user);
+                command.CommandText = "SELECT raw_transaction FROM transactions WHERE user=@username";
+                command.Parameters.AddWithValue("@username", App.Current.Properties["user"]);
                 using (var reader = command.ExecuteReader())
                 {
                     while(reader.Read())
                     {
-                        transactionsJSON.Add(reader["transaction"]);
-                    
-                        
+                        transactionsJSON.Add(reader["raw_transaction"]);
+                        Console.WriteLine(reader["raw_transaction"]);
+
+
                     }
                 }
             }

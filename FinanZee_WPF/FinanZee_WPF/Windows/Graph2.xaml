@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="FinanZee_WPF.Windows.Graph1"
+﻿<UserControl x:Class="FinanZee_WPF.Windows.Graph2"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -6,7 +6,7 @@
         xmlns:vms="clr-namespace:FinanZee_WPF.Windows" xmlns:lvc="clr-namespace:LiveChartsCore.SkiaSharpView.WPF;assembly=LiveChartsCore.SkiaSharpView.WPF">
 
     <UserControl.DataContext>
-        <vms:Graph1Model/>
+        <vms:Graph2Model/>
     </UserControl.DataContext>
 
     <Grid Width="1000" Height="400">

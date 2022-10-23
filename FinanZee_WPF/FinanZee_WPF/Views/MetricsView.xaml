@@ -6,12 +6,49 @@
              xmlns:lvc="clr-namespace:LiveChartsCore.SkiaSharpView.WPF;assembly=LiveChartsCore.SkiaSharpView.WPF"
 
              xmlns:local="clr-namespace:FinanZee_WPF.ViewModels"
-             xmlns:Windows="clr-namespace:FinanZee_WPF.Windows" x:Class="FinanZee_WPF.Views.MetricsView"
+             xmlns:Windows="clr-namespace:FinanZee_WPF.Windows" xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp" x:Class="FinanZee_WPF.Views.MetricsView"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="400" d:DesignWidth="1050">
 
 
-    <Windows:Graph1 HorizontalAlignment="Center" Margin="0,0,0,0" Width="800" Height="450" VerticalAlignment="Top"/>
+
+    
+
+    <Grid Margin="0,0,0,0">
+        <Label x:Name="lblTitle" Content="Ingresos / Egresos" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Top" FontSize="16"
+                                       FontFamily="Montserrat"
+                                       FontWeight="Medium"/>
+        <Windows:Graph1 x:Name="wndGraph1" HorizontalAlignment="Center" Width="1568" Height="400" VerticalAlignment="Center"/>
+        <Windows:Graph2 x:Name="wndGraph2" HorizontalAlignment="Center" Width="1568" Height="400" VerticalAlignment="Center"/>
+        <Windows:Graph3 x:Name="wndGraph3" HorizontalAlignment="Center" Width="1568" Height="400" VerticalAlignment="Center"/>
+        <Windows:Graph4 x:Name="wndGraph4" HorizontalAlignment="Center" Width="1568" Height="400" VerticalAlignment="Center"/>
+
+
+        <Grid Margin="0,570,0,0">
+        
+        
+            <StackPanel Orientation="Horizontal">
+
+                <Button x:Name="btnPrev" Style="{StaticResource iconButton}"
+                                        Tag="{StaticResource color3}" Click="btnPrev_Click">
+                    <fa:IconImage Icon="LeftLong" Style="{StaticResource iconButtonIcon}"/>
+                </Button>
+
+                <Button x:Name="btnNext" Style="{StaticResource iconButton}"
+                                        Tag="{StaticResource color4}" Click="btnNext_Click">
+                    <fa:IconImage Icon="RightLong" Style="{StaticResource iconButtonIcon}"/>
+                </Button>
+
+
+
+            </StackPanel>
+       
+
+
+
+
+        </Grid>
+    </Grid>
 
 
 </UserControl>

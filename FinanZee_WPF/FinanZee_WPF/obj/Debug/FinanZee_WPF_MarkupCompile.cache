@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Simon\Documents\GitHub\FinanZee\FinanZee_WPF\FinanZee_WPF\App.xaml
-12-235488516
+15611929444
 18767861041
-32-663794830
+39-1992251186
 40454552710
-CustomControls\BindablePasswordBox.xaml;Styles\ButtonStyles.xaml;Styles\UIColors.xaml;Views\CalendarView.xaml;Views\CustomerView.xaml;Views\HomeView.xaml;Views\LoginView.xaml;Views\MainView.xaml;Views\MetricsView.xaml;Views\RegisterView.xaml;Views\SettingsView.xaml;Windows\Graph1.xaml;
+CustomControls\BindablePasswordBox.xaml;Styles\ButtonStyles.xaml;Styles\UIColors.xaml;Views\CalendarView.xaml;Views\CustomerView.xaml;Views\HomeView.xaml;Views\LoginView.xaml;Views\MainView.xaml;Views\MetricsView.xaml;Views\RegisterView.xaml;Views\SettingsView.xaml;Windows\Graph1.xaml;Windows\Graph2.xaml;Windows\Graph3.xaml;Windows\Graph4.xaml;
 
-False
+True
 

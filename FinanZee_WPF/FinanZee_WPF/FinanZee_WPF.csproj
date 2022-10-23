@@ -178,6 +178,18 @@
     <Compile Include="Windows\Graph1.xaml.cs">
       <DependentUpon>Graph1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\Graph2.xaml.cs">
+      <DependentUpon>Graph2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Graph2Model.cs" />
+    <Compile Include="Windows\Graph3.xaml.cs">
+      <DependentUpon>Graph3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Graph3Model.cs" />
+    <Compile Include="Windows\Graph4.xaml.cs">
+      <DependentUpon>Graph4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Graph4Model.cs" />
     <Page Include="CustomControls\BindablePasswordBox.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -223,6 +235,18 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Windows\Graph1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Graph2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Graph3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Graph4.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

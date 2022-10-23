@@ -10,20 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
-using static FinanZee_WPF.Models.TransactionModel;
 
 namespace FinanZee_WPF.Windows
 {
     /// <summary>
-    /// Interaction logic for Graph1.xaml
+    /// Interaction logic for Graph2.xaml
     /// </summary>
-    public partial class Graph1 : UserControl
+    public partial class Graph2 : UserControl
     {
-        public Graph1()
+        public Graph2()
         {
             InitializeComponent();
-
         }
     }
 }

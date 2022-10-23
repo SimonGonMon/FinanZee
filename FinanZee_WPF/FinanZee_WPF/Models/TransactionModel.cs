@@ -19,6 +19,16 @@ namespace FinanZee_WPF.Models
             public double amount { get; set; }
 
             public string extra { get; set; }
+
+            public override string ToString()
+            {
+                return "INTERNAL-DEBUG   Transaction{" +
+                        "date=" + date +
+                        ", type='" + type + '\'' +
+                        ", amount=" + amount +
+                        ", extra='" + extra + '\'' +
+                        '}';
+            }
         }
 
         public class TransactionManagement
@@ -41,7 +51,7 @@ namespace FinanZee_WPF.Models
                 UserRepository userRepository = new UserRepository();
                 string[] transactions = (string[])userRepository.GetTransactions().ToArray(typeof(string));
 
-                for(int i =0; i<transactions.Length;i++)
+                for (int i =0; i<transactions.Length;i++)
                 {
                     transactionsArray.Add(JsonConvert.DeserializeObject<Transaction>(transactions[i]));       
                 }
@@ -51,7 +61,10 @@ namespace FinanZee_WPF.Models
             }
 
         }
+
+
         
+
 
 
 
