@@ -28,6 +28,10 @@ namespace FinanZee_WPF.Windows
             Transaction[] transactionsPositive = new Transaction[] { };
             Transaction[] transactionsNegative = new Transaction[] { };
 
+            Transaction[] allTransactionsArr = new Transaction[] { };
+
+            
+
             var allTransactions = transactionManagement.DownloadTransactions();
 
             foreach (Transaction transaction in allTransactions)
@@ -36,14 +40,37 @@ namespace FinanZee_WPF.Windows
                 {
                     Array.Resize(ref transactionsPositive, transactionsPositive.Length + 1);
                     transactionsPositive[transactionsPositive.Length - 1] = transaction;
+
+                    Array.Resize(ref allTransactionsArr, allTransactionsArr.Length + 1);
+                    allTransactionsArr[allTransactionsArr.Length - 1] = transaction;
                 }
 
                 if (transaction.type == "Egreso")
                 {
                     Array.Resize(ref transactionsNegative, transactionsNegative.Length + 1);
                     transactionsNegative[transactionsNegative.Length - 1] = transaction;
+                    Array.Resize(ref allTransactionsArr, allTransactionsArr.Length + 1);
+                    allTransactionsArr[allTransactionsArr.Length - 1] = transaction;
                 }
             }
+
+            //sort allTransactionsArr by date of each transaction
+            Array.Sort(allTransactionsArr, delegate (Transaction x, Transaction y)
+            {
+                return x.date.CompareTo(y.date);
+            });
+
+            //sort the other two arrays by date of each transaction
+            Array.Sort(transactionsPositive, delegate (Transaction x, Transaction y)
+            {
+                return x.date.CompareTo(y.date);
+            });
+
+            Array.Sort(transactionsNegative, delegate (Transaction x, Transaction y)
+            {
+                return x.date.CompareTo(y.date);
+            });
+
 
             Console.WriteLine("Positive transactions: " + "[" + transactionsPositive.Length + "]");
             foreach (Transaction transaction in transactionsPositive)
@@ -83,11 +110,12 @@ namespace FinanZee_WPF.Windows
             {
                 new Axis
                 {
-                    //Name = "Fecha",
                     NamePadding = new LiveChartsCore.Drawing.Padding(0, 15),
+
                     LabelsRotation = 45,
                     //set each transaction date as label for the axis
-                    Labeler = (value) => transactionsPositive[(int)value].date.ToString("dd/MM/yyyy"),
+                    //Labeler = (value) => transactionsPositive[(int)value+1].date.ToString("dd/MM/yyyy")
+
 
                 }
 

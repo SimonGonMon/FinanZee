@@ -37,6 +37,17 @@ namespace FinanZee_WPF.Windows
                 }
             }
 
+            //sort the arrays by date
+            Array.Sort(transactionsPositive, delegate (Transaction x, Transaction y)
+            {
+                return x.date.CompareTo(y.date);
+            });
+
+            Array.Sort(transactionsNegative, delegate (Transaction x, Transaction y)
+            {
+                return x.date.CompareTo(y.date);
+            });
+
             Console.WriteLine("Positive transactions: " + "[" + transactionsPositive.Length + "]");
             foreach (Transaction transaction in transactionsPositive)
             {

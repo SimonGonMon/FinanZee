@@ -127,14 +127,14 @@
                             <TextBlock Text="Registrar" Style="{StaticResource menuButtonText}"/>
                         </StackPanel>
                     </RadioButton>
-                    <RadioButton Style="{StaticResource menuButton}"
+                    <!--<RadioButton Style="{StaticResource menuButton}"
                                  Tag="{StaticResource color5}"
                                  Command="{Binding ShowCustomerViewCommand}">
                         <StackPanel Orientation="Horizontal">
                             <fa:IconImage Icon="Gear" Style="{StaticResource menuButtonIcon}"/>
                             <TextBlock Text="Ajustes" Style="{StaticResource menuButtonText}"/>
                         </StackPanel>
-                    </RadioButton>
+                    </RadioButton>-->
                     
                 </StackPanel>
 
@@ -226,13 +226,13 @@
                                     VerticalAlignment="Center"
                                     Margin="0,0,10,0">
 
-                            <Button Style="{StaticResource iconButton}"
+                            <!--<Button Style="{StaticResource iconButton}"
                                     Tag="{StaticResource color1}">
                                 <fa:IconImage Icon="AngleDown" 
                                               Height="12" 
                                               Width="12"
                                               Style="{StaticResource iconButtonIcon}"/>
-                            </Button>
+                            </Button>-->
 
                             <TextBlock Text="{Binding CurrentUserAccount.DisplayName}"
                                        Foreground="{StaticResource titleColor3}"
@@ -255,7 +255,7 @@
                                 
                             </Ellipse>
 
-                            <Button Style="{StaticResource iconButton}"
+                            <!--<Button Style="{StaticResource iconButton}"
                                     Tag="{StaticResource color3}">
                                 <fa:IconImage Icon="Clock" Style="{StaticResource iconButtonIcon}"/>
                             </Button>
@@ -268,7 +268,7 @@
                             <Button Style="{StaticResource iconButton}"
                                     Tag="{StaticResource color5}">
                                 <fa:IconImage Icon="Bell" Style="{StaticResource iconButtonIcon}"/>
-                            </Button>
+                            </Button>-->
 
                         </StackPanel>
 

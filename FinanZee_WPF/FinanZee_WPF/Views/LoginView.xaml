@@ -150,7 +150,7 @@
                     <Image Source="/Images/fz2.png"
                            Width="120" Height="110"/>
 
-                    <TextBlock Text="FinanZee"
+                    <TextBlock Text="FINANZEE"
                                Foreground="Black"
                                FontSize="25"
                                FontWeight="Medium"

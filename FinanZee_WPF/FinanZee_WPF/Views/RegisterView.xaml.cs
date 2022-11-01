@@ -53,7 +53,15 @@ namespace FinanZee_WPF.Views
                 transaction.type = type;
                 transaction.date = transactionDate;
 
+             
+
                 transactionManagement.UploadTransaction(transaction);
+
+                //make 15 random transactions with dates between september 2022 and march 2023 and amounts from 50000 to 760000 and random type from "Activo" "Pasivo" "Ingreso" or "Egreso"
+                
+
+
+
 
                 lblStatusEmail.Foreground = new BrushConverter().ConvertFromString("#FF009A1F") as SolidColorBrush;
                 lblStatusEmail.Content = "* Transacción agregada con éxito";
@@ -127,6 +135,48 @@ namespace FinanZee_WPF.Views
 
                 lblStatusEmail.Foreground = new BrushConverter().ConvertFromString("#FF009A1F") as SolidColorBrush;
                 lblStatusEmail.Content = "* Transacción agregada con éxito";
+
+
+                //for (int i = 0; i < 15; i++)
+                //{
+                //    Random rnd = new Random();
+                //    double randomAmount = rnd.Next(50000, 760000);
+                //    string randomType = "";
+                //    int randomTypeInt = rnd.Next(1, 5);
+                //    if (randomTypeInt == 1)
+                //    {
+                //        randomType = "Activo";
+                //    }
+                //    else if (randomTypeInt == 2)
+                //    {
+                //        randomType = "Pasivo";
+                //    }
+                //    else if (randomTypeInt == 3)
+                //    {
+                //        randomType = "Ingreso";
+                //    }
+                //    else if (randomTypeInt == 4)
+                //    {
+                //        randomType = "Egreso";
+                //    }
+                //    int randomDay = rnd.Next(1, 30);
+                //    int randomMonth = rnd.Next(9, 12);
+                //    int randomYear = rnd.Next(2022, 2023);
+                //    DateTime randomDate = new DateTime(randomYear, randomMonth, randomDay);
+
+                //    Transaction randomTransaction = new Transaction();
+                //    randomTransaction.amount = randomAmount;
+                //    randomTransaction.type = randomType.ToString();
+                //    randomTransaction.date = randomDate;
+                //    randomTransaction.extra = "internal test transaction " + i;
+
+                //    Console.WriteLine(randomTransaction);
+
+                //    transactionManagement.UploadTransaction(randomTransaction);
+                //}
+
+
+                
 
                 loadTransactionsData();
 
